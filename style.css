@@ -76,7 +76,6 @@ pre {
     background-color: rgb(223, 220, 220);
     border: none;
     outline: none;
-    padding-left: 5px;
 }
 .password-container {
     display: flex;
