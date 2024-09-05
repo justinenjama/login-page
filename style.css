@@ -81,6 +81,8 @@ pre {
 .password-container {
     display: flex;
     align-items: center;
+    position: relative; 
+    padding-left: 0px;
 }
 .password-container .btn {
     background-color: rgb(223, 220, 220);
@@ -89,11 +91,8 @@ pre {
     border: none;
     outline: none;
     cursor: pointer;
-    display: flex;
-    padding-left: 280px;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
+    position: absolute; 
+    right: 10px; 
 }
 
 .form1 input[type="checkbox"] {
