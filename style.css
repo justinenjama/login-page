@@ -13,9 +13,6 @@ h1 {
     color: rgb(124, 35, 120);
     text-transform: capitalize;
 }
-i{
-    color: white;
-}
 
 pre {
     text-align: center;
@@ -66,7 +63,7 @@ pre {
 
 .form1 input[type="text"]
 {
-    width: 100%;
+    width: 970%;
     height: 25px;
     background-color: rgb(223, 220, 220);
     border: none;
