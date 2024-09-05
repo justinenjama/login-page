@@ -153,14 +153,15 @@ footer {
 @media (max-width: 480px) {
     header {
         font-size: 0.9rem;
+        height: 100px;
     }
 
     h1 {
         font-size: 1.5rem;
     }
 
-    pre {
-        font-size: 0.8rem;
+    p {
+        font-size: 0.9rem;
     }
 
     input[type="text"],
