@@ -155,7 +155,9 @@ footer {
         font-size: 0.9rem;
         height: 100px;
     }
-
+    #nav-top1 a {
+        font-size: 0.3rem;
+            }
     h1 {
         font-size: 1.5rem;
     }
