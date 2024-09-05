@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="icons/IMG20230821171008.png">
+</head>
+<body>
+    <header>
+        <nav id="nav-top1">
+            <ul>
+                <li>
+                    <a href="#"> <i class='bx bxs-home-heart'></i> <br> &nbsp; Home</a>   
+                </li>
+                <li>
+                    <a href="#"> <i class='bx bxl-product-hunt'></i> <br> &nbsp; Products</a>
+                </li>
+                <li>
+                    <a href="#"> <i class='bx bxs-contact'></i> <br> &nbsp; Contact Us</a>
+                </li>
+                <li>
+                    <a href="#"> <i class='bx bxs-group' ></i> <br> &nbsp; Community</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Gwamma online shopping</h1>
+    <hr>
+    <pre>Welcome to Gwamma online shopping platform. Please fill in your details to login or sign up if you do not have an account</pre>
+
+        <form action="login.php" class="form1">
+            <p>
+                <label for="username">Username</label> <br> <br>
+                <input type="text" name="username" id="username" placeholder="Enter Username">
+            </p>
+          
+                <label for="password">Password</label>
+            <p class="password-container">
+                <input type="password" name="password" id="password" placeholder="Enter Password">
+                <button class="btn"><i class='bx bx-hide'></i></button>
+            </p>    
+            <p>
+                <input type="checkbox" name="checkbox" id="checkbox"> Remember me
+                &nbsp;
+                <a href="password-reset">Forgot Password?</a>
+            </p>
+            <p>
+                <button class="login" type="submit">Login</button>
+            </p>
+            <p>
+                Don't have an account? 
+                <a href="register">Sign Up</a>
+            </p>
+        </form>
+
+        <hr>
+
+    <footer >
+        <p></p>
+        <h5>software engineering student kisii university</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
